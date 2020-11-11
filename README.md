@@ -1,38 +1,23 @@
 
 
-# Чат приложение в 3-версиях
-- Десктопная версия
-- [Мобильная версия](https://saqhan.github.io/ng-module-chat/)
-- Модульный чат
+# Чат-приложение в 3-версиях;
 
-В ходе разработки приложение компоненты создавались в StencilJS и подключались в Angular как вебкомпоненты.
-Логика прописана в Angular
-Верстка и дизайн компонентов в StencilJS
+- десктопная версия
+- мобильная версия
+- модульный чат
 
-# NgChat
+Стэк: Angular, StencilJS. Работа выполнена в команде из двух человек. Логика прописана в Angular. Верстка и дизайн компонентов в StencilJS
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
+# Реализовано
 
-## Development server
+1. Отправка сообщений
+2. Статус юзера (офлайн, онлайн, был недавно, печатает)
+3. Тип сообщений (текстовое, фото, системное сообщение)
+4. Переключение между диалогами и контактами
+5. Фильтрация диалогов по категориям
+6. Поиск сообщений
+7. Поиск диалогов
+7. Поиск контактов
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
